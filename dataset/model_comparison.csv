@@ -1,0 +1,4 @@
+Model,Accuracy (%),F1 Weighted (%),Cohen's κ,ROC-AUC (macro),CV F1 mean (%),CV F1 std (%)
+TF-IDF + LinearSVC,93.78,93.78,0.8755,0.9849,93.81,0.38
+Word2Vec + LinearSVC,87.6,87.6,0.7517,0.9415,,
+all-MiniLM-L6-v2 + LinearSVC,94.06,94.06,0.8811,0.985,93.98,0.13
